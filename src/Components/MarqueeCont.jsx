@@ -29,7 +29,7 @@ const MarqueeCont = () => {
   ];
 
   return (
-    <div className="relative w-full overflow-hidden p-20 bg-inherit">
+    <div className="relative w-full overflow-hidden p-10 bg-inherit">
       {images.map((e, i) => (
         <Marquee img={e} key={i} direction={i === 0 ? "left" : "right"} />
       ))}
