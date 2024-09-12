@@ -3,8 +3,8 @@ import Card from "./Card";
 
 const CardCont = () => {
   return (
-    <div className=" mx-auto p-20  bg-inherit">
-      <div className="max-w-screen-xl mx-auto flex gap-2  ">
+    <div className=" mx-auto p-10 sm:p-20  bg-inherit">
+      <div className=" w-[110%] -mx-4  mt-10 sm:mt-0 sm:max-w-screen-xl sm:mx-auto flex gap-2 overflow-hidden  ">
         <Card
           width={"w-1/3"}
           btmup={false}

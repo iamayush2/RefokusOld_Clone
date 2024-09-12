@@ -46,7 +46,7 @@ const ProductsCont = () => {
   };
 
   return (
-    <div className="bg-inherit pt-10 pb-20">
+    <div className="bg-inherit pt-10  pb-4 sm:pb-20">
       {proState.map((e, i) => (
         <Product
           key={i}

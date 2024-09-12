@@ -2,6 +2,8 @@ import React from "react";
 import Stripe from "./Stripe";
 
 const StripeCont = () => {
+  let screenWidth = screen.width;
+
   return (
     <div className="w-full  mt-[5vh] flex items-center justify-center ">
       <Stripe

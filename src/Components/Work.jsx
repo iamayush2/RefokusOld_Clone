@@ -82,18 +82,18 @@ const Work = () => {
   });
 
   return (
-    <div className="w-full">
+    <div className="w-full overflow-hidden">
       <div className=" relative max-w-screen-xl mx-auto  pt-3 text-white">
-        <h1 className="text-[34vw] select-none leading-none text-center font-bold font-['Satoshi'] ">
+        <h1 className="text-[35vw] select-none leading-none text-center font-bold font-['Satoshi'] ">
           work
         </h1>
-        <div className="images w-full absolute h-full  top-0">
+        <div className="images w-full absolute h-full overflow-hidden top-0">
           {images.map(
             (e, i) =>
               e.isActive && (
                 <img
                   style={{ top: e.top, left: e.left }}
-                  className=" absolute w-60 -translate-x-[50%] -translate-y-[50%]"
+                  className=" absolute w-20 sm:w-60 -translate-x-[50%] -translate-y-[50%]"
                   src={e.src}
                   alt=""
                 />
